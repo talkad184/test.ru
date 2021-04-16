@@ -13,7 +13,7 @@ require_once 'vendor/autoload.php';
 require_once 'vendor/mashape/unirest-php/src/Unirest.php';
 
 $response = Unirest\Request::get(
-  'https://api.trello.com/1/members/me/boards/',
+  'https://api.trello.com/1/boards/eFOyz7pc/cards',
   $headers,
   $query
 );
